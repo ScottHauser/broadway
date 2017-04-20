@@ -1,0 +1,52 @@
+body {
+  text-align: center;
+  font-family: helvetica, sans-serif;
+}
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+p {
+  font-size: 14px;
+}
+#header {
+  background-image: url(file:///Users/scotthauser/Desktop/projects/broadway/resources/images/the-flatiron-building.png);
+}
+
+#header ul li {
+  font-size: 18px;
+  color: white;
+  list-style-type: none;
+  line-height: 200%;
+}
+
+#header a:link a:visited a:hover a:active {
+  text-decoration: underline;
+  color: white;
+}
+.contact {
+  background-image: url(file:///Users/scotthauser/Desktop/projects/broadway/resources/images/the-flatiron-building.png);
+  color: white;
+}
+.footer {
+  text-align:left;
+  font-size: 18px;
+  background-color: dimgray;
+  color:white;
+}
+.footer a:link a:visited {
+  text-decoration: none;
+  color: white;
+}
+.copyright {
+  font-size:11px;
+}
