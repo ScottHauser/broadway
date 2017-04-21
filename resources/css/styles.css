@@ -21,16 +21,12 @@ p {
 #header {
   background-image: url(file:///Users/scotthauser/Desktop/projects/broadway/resources/images/the-flatiron-building.png);
 }
-
-#header ul li {
-  font-size: 18px;
+#header nav p {
+  font-family: "helvetica", sans-serif;
   color: white;
-  list-style-type: none;
-  line-height: 200%;
+  font-size: 18px;
 }
-
-#header a:link a:visited a:hover a:active {
-  text-decoration: underline;
+#header a {
   color: white;
 }
 .contact {
@@ -43,10 +39,14 @@ p {
   background-color: dimgray;
   color:white;
 }
-.footer a:link a:visited {
-  text-decoration: none;
+.footer nav {
+  display: inline;
+  color: white;
+}
+.footer a {
   color: white;
 }
 .copyright {
   font-size:11px;
+  display: inline;
 }
